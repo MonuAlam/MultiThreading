@@ -12,5 +12,7 @@ public class MyThread {
 
         Task3 task3=new Task3();
         task3.start();
+
+        System.out.println(Thread.currentThread().getName());
     }
 }
