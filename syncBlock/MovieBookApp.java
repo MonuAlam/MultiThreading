@@ -11,7 +11,7 @@ public class MovieBookApp extends Thread{
 
     public static void main(String[] args) {
 
-        bookTheaterSeat=new BookTheaterSeat();
+        bookTheaterSeat=new BookTheaterSeat();//agr iske 2 bonject bana de to inconstancy ka problem aa jayega then vo solve hoga static sync jo lock class par check karta hai
 
         MovieBookApp amit=new MovieBookApp();
         amit.seat=5;
